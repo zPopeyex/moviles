@@ -8,10 +8,10 @@ public class Person {
 
 	public double solicita_datos() {
 		peso = Double.parseDouble(JOptionPane.showInputDialog("Ingrese el peso en (kg)"));
-		System.out.println(peso);
+		System.out.println("Su peso es: " + peso);
 
 		altura = Double.parseDouble(JOptionPane.showInputDialog("Ingrese la altura en (m2)"));
-		System.out.println(altura);
+		System.out.println("Su altura es: " + altura);
 
 		return (peso + altura);
 	}
@@ -22,13 +22,15 @@ public class Person {
 		IMC = Math.round(IMC * 100) / 100d;
 
 		if (IMC < 16) {
-			System.out.println("Desnutrición");
+			System.out.println("Se encuentra en estado de desnutrición");
 		} else if (IMC <= 19) {
-			System.out.println("Desnutricion leve");
+			System.out.println("Se encuentra en estado de desnutricion leve");
 		} else if (IMC <= 26) {
-			System.out.println("Peso Normal");
+			System.out.println("Se encuentra en estado de peso Normal");
 		} else if (IMC <= 30) {
-			System.out.println("Estas en sobrepeso");
+			System.out.println("Se encuentra en estado de sobrepeso");
+		} else if (IMC <= 40) {
+			System.out.println("Se encuentra en estado de Obesidad tipo I");
 		}
 
 		return (IMC);
