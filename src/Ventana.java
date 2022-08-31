@@ -66,7 +66,7 @@ public class Ventana extends JFrame implements ActionListener {
 
 		// Panel superior (Texto)
 		JPanel Psuperior = new JPanel();
-		Psuperior.setBackground(Color.lightGray);
+		Psuperior.setBackground(Color.CIAN);
 		// this.getContentPane().add(Psuperior);// Añadimos el panel al JFrame
 
 		// Panel Inferior (Botones)
