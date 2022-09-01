@@ -9,7 +9,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="First Hello world 2"
+        android:text="First Hello world 3"
         android:textSize="30dp"
         android:textColor="@color/design_default_color_secondary"
         android:textAppearance="@style/Theme.MaterialComponents.Light.Dialog.Alert"
