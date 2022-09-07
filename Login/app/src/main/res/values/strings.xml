@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Login - Leonardo Garzón</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Sign in</string>
+    <string name="enter_name">example@email.com...</string>
+    <string name="enter_password">Password</string>
+</resources>
