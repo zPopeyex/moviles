@@ -37,20 +37,20 @@ public class MainActivity extends AppCompatActivity {
         Button myButton = findViewById(R.id.signin);
         myButton.setOnClickListener(view -> {
             EditText email = findViewById(R.id.editTextTextPersonName7);
+            EditText nombre = findViewById(R.id.editName);
             EditText password = findViewById(R.id.editTextTextPassword);
-            EditText name = findViewById(R.id.editName);
 
             JSONObject jsonBody = new JSONObject();
             try {
                 jsonBody.put("email", email.getText());
+                jsonBody.put("nombre", nombre.getText());
                 jsonBody.put("password", password.getText());
-                jsonBody.put("nombre", name.getText());
             } catch (JSONException e) {
                 e.printStackTrace();
             }
             final String requestBody = jsonBody.toString();
             Log.e("test", jsonBody.toString());
-            String myUrl = " https://f97d-2800-e2-4e80-25d0-4833-e377-aa27-2488.ngrok.io/guardar";
+            String myUrl = " https://1491-2800-e2-4e80-25d0-4833-e377-aa27-2488.ngrok.io/guardar";
             StringRequest myRequest = new StringRequest(Request.Method.POST, myUrl, response -> {
                 try {
                     JSONObject myObj = new JSONObject(response);
