@@ -2,5 +2,6 @@
     <string name="app_name">Steven Leonardo Garzon - Moviles</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">MapsActivity</string>
     <string name="abrir_mapa">Abrir Mapa</string>
 </resources>
