@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Iconos - Moviles</string>
+    <string name ="follow">Sigueme en las siguientes plataformas</string>
+    <string name="logoL">Logo Linkedin</string>
+    <string name="logoG">Logo Github</string>
+</resources>
